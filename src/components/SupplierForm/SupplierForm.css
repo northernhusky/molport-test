@@ -1,0 +1,81 @@
+.supplier-form {
+    max-width: 500px;
+    height: 275px;
+    max-height: 275px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+.supplier-form h2 {
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Euclid Circular A', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #201232;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group input {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Euclid Circular A', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    box-shadow: inset 3px 5px 10px rgba(15, 22, 30, 0.08);
+}
+  
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #11AA77;
+    font-family: 'Euclid Circular A', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.btn-submit:hover {
+    background-color: #55C998;
+}
+  
+@media (max-width: 768px) {
+    .supplier-form {
+      padding: 15px;
+      border-radius: 6px;
+    }
+  
+    .form-group input {
+      font-size: 14px;
+    }
+  
+    .btn-submit {
+      font-size: 14px;
+    }
+}
+  
+@media (max-width: 480px) {
+    .supplier-form {
+      padding: 10px;
+    }
+  
+    .form-group input {
+      font-size: 12px;
+    }
+  
+    .btn-submit {
+      font-size: 12px;
+      padding: 8px;
+    }
+}  
