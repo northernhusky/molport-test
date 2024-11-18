@@ -32,7 +32,11 @@ https://github.com/northernhusky/molport-test.git
 
 🔧 Checkout to master branch
 
-git checkout staging
+git checkout staging 
+
+or
+
+git checkout master
 
 🔧 Go to supplier-catalog-manager folder
 
