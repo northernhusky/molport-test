@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+📦 Supplier Catalog Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📝 Project Description
 
-## Available Scripts
+Supplier Catalog Manager is a React application for managing suppliers and their catalogs.
+Users can add new suppliers, select existing ones, upload catalogs and view them.
 
-In the project directory, you can run:
+The application is developed using React, Redux, TypeScript and styled with CSS.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+📋 Functionality
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+View the list of suppliers.
+Add a new supplier (name, country, website).
+Select a supplier to work with.
+Upload a catalog for the selected supplier.
+View catalog products in a convenient table.
+Automatic recalculation of data when adding a catalog.
 
-### `npm test`
+🚀 Installing and running the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔧 Requirements
 
-### `npm run build`
+Before you start, make sure you have installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Node.js (version 14.x or higher)
+npm or yarn
+📥 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
+https://github.com/northernhusky/molport-test.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔧 Checkout to master branch
 
-### `npm run eject`
+git checkout master
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+🔧 Go to supplier-catalog-manager folder
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd supplier-catalog-manager
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🔧 Install all dependencies:
 
-## Learn More
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+or
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+yarn install
+
+▶️ Running the application
+Run the application in development mode:
+
+npm start
+
+or
+
+yarn start
+Open the application in a browser: http://localhost:3000
