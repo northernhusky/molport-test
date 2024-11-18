@@ -1,0 +1,68 @@
+.catalog-upload {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #F6EDFF;
+    box-shadow: 3px 5px 10px rgba(15, 22, 30, 0.07);
+}
+  
+.upload-label {
+    display: block;
+    font-size: 32px;
+    font-family: 'Euclid Circular A', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #201232;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+    
+.upload-input {
+    display: block;
+    width: 94%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.upload-input:hover,
+.upload-input:focus {
+    border-color: #3E7ED2;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+  
+@media (max-width: 768px) {
+    .catalog-upload {
+      padding: 15px;
+    }
+  
+    .upload-label {
+      font-size: 14px;
+    }
+  
+    .upload-input {
+      font-size: 12px;
+      padding: 8px;
+    }
+}
+  
+@media (max-width: 480px) {
+    .catalog-upload {
+      padding: 10px;
+    }
+  
+    .upload-label {
+      font-size: 12px;
+    }
+  
+    .upload-input {
+      font-size: 10px;
+      padding: 6px;
+    }
+}
