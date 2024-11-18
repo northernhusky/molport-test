@@ -75,7 +75,10 @@
 
 @media (max-width: 768px) {
   .supplier-list {
-    padding: 15px;
+    width: 100%;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: none;
   }
 
   .supplier-item {
@@ -95,7 +98,10 @@
 
 @media (max-width: 480px) {
   .supplier-list {
-    padding: 10px;
+    width: 100%;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: none;
   }
 
   .supplier-item {
