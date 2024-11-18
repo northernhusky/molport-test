@@ -38,10 +38,7 @@ or
 
 git checkout master
 
-🔧 Go to supplier-catalog-manager folder
-
-cd supplier-catalog-manager
-
+🔧 Go to project folder
 
 🔧 Install all dependencies:
 
